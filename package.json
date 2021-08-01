@@ -1,0 +1,24 @@
+{
+  "name": "bedrock-video",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "cannon-es": "0.18.0",
+    "cannon-es-debugger": "0.1.4",
+    "dat.gui": "0.7.7",
+    "parcel-bundler": "^1.6.1",
+    "three": "0.130.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": []
+}
